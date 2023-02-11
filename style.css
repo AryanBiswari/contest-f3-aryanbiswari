@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+.navbar {
+  font-family: "Inter";
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo {
+  flex: 1;
+}
+.nav-lists {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-lists li {
+  margin-left: 20px;
+}
+.productList {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-item {
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.product-item img {
+    width: 100%;
+    height: 80%;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.sidewise {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+p {
+  margin: 4px 10px;
+}
